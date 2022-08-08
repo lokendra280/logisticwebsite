@@ -74,7 +74,7 @@
                 <div class="position-relative">
                     <div class="row">
                         <div class="col-lg-3 col-md-12">
-                            <a id="logo" href="home-1.html" class="d-inline-block margin-tb-15px"><img src="assets/img/logo-dark-3.png" alt=""></a>
+                            <a id="logo" href="home-1.html" class="d-inline-block margin-tb-15px">KathCity</a>
                             <a class="mobile-toggle padding-15px background-second-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                         </div>
                         <div class="col-lg-9 col-md-12 d-none d-lg-block position-inherit">
@@ -135,43 +135,43 @@
                             <ul id="menu-main" class="nav-menu float-lg-left text-lg-left link-padding-tb-16px white-link dropdown-dark">
                                 <li class="has-dropdown"><a href="#">Home</a>
                                     <ul class="sub-menu">
-                                        <li><a href="home-1.html">Home - Main Demo</a></li>
+                                        <!-- <li><a href="home-1.html">Home - Main Demo</a></li>
                                         <li><a href="home-2.html">Home - Classic Layout</a></li>
                                         <li><a href="home-3.html">Home - Modern Layout</a></li>
                                         <li><a href="home-4.html">Home - Marine Transport</a></li>
                                         <li><a href="home-5.html">Home - Moving Co</a></li>
-                                        <li><a href="home-6.html">Home - Company</a></li>
+                                        <li><a href="home-6.html">Home - Company</a></li> -->
                                     </ul>
                                 </li>
                                 <li class="has-dropdown"><a href="#">About</a>
                                     <ul class="sub-menu">
                                         <li><a href="page-about-us.html">About Us</a></li>
-                                        <li><a href="page-faqs.html">Faqs</a></li>
+                                        <!-- <li><a href="page-faqs.html">Faqs</a></li>
                                         <li><a href="page-out-team.html">Our Team</a></li>
                                         <li><a href="page-price-table.html">Price Table</a></li>
                                         <li><a href="page-contact-us.html">Contact Us</a></li>
-                                        <li><a href="page-our-partners.html">Our Partners</a></li>
+                                        <li><a href="page-our-partners.html">Our Partners</a></li> -->
                                     </ul>
                                 </li>
                                 <li class="has-dropdown"><a href="#">Services</a>
                                     <ul class="sub-menu">
                                         <li><a href="service-single.html">Cargo Transportation</a></li>
                                         <li><a href="service-single.html">Air Freight</a></li>
-                                        <li><a href="service-single.html">Ocean Freight</a></li>
-                                        <li><a href="service-single.html">Packaging and Storage</a></li>
+                                        
+                           
                                         <li><a href="service-single.html">Fast Delivery</a></li>
-                                        <li><a href="service-single.html">Railroad Transportation</a></li>
+                                       
                                     </ul>
                                 </li>
-                                <li class="has-dropdown"><a href="#">Blog</a>
+                                <!-- <li class="has-dropdown"><a href="#">Blog</a>
                                     <ul class="sub-menu">
                                         <li><a href="blog-left-sidebar.html">Blog Left Sidebar </a></li>
                                         <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
                                         <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
                                         <li><a href="blog-single.html">Post Detalis</a></li>
                                     </ul>
-                                </li>
-                                <li class="mega-menu mega-links mega-links-4columns"><a href="#">Elements</a>
+                                </li> -->
+                                <!-- <li class="mega-menu mega-links mega-links-4columns"><a href="#">Elements</a>
                                     <div class="mega-menu-out sub-menu-out">
                                         <ul class="sub-menu-columns">
                                             <li>
@@ -216,7 +216,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </li>
+                                </li> -->
 
                             </ul>
 

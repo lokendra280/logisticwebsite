@@ -9,7 +9,7 @@ class senderinfo extends Model
 {
     use HasFactory;
     protected $table ="senderinfo";
-    protected $fillable=['name','status','shiping_price','payment','product_type','company_name','city','street','email','phone_number','quantity','weight','items_id',];
+    protected $fillable=['name','status','delivery_status','shiping_price','payment','product_type','company_name','city','street','email','phone_number','quantity','weight','items_id',];
    
 
 

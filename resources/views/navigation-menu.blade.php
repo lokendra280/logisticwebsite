@@ -61,6 +61,7 @@
         <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
         <a href="{{route('shiping.add')}}" class="font-medium text-gray-500 hover:text-gray-900">Create Shiping</a>
         <a href="{{route('history.show')}}" class="font-medium text-gray-500 hover:text-gray-900">View Shiping History</a>
+        
     
         <form method="POST" action="{{ route('logout') }}" x-data class="inline-block">
             @csrf

@@ -14,7 +14,7 @@ use App\Models\items;
 
 class Createshiping extends Component
 {
-    public $selected_product,$payment,$status,$shiping_price=0, $name,$email,$city,$items_id,$company_name,$Street,$productprice,$phone_number,$pacakage_type,$package_type,$product_type,$quantity,$weight;
+    public $selected_product,$pending,$payment,$status,$shiping_price=0, $name,$email,$city,$items_id,$company_name,$Street,$productprice,$phone_number,$pacakage_type,$package_type,$product_type,$quantity,$weight;
     
      public function mount($items_id = null)
      {
@@ -32,7 +32,7 @@ class Createshiping extends Component
             $this->quantity = $senderinfo->quantity;
             $this->weight = $senderinfo->weight;
             // $this->shiping_price = $senderinfo->shiping_price;
-            $this->payment = $senderinfo->status;
+            // $this->payment = $senderinfo->status;
            
         }
     }
@@ -62,11 +62,12 @@ class Createshiping extends Component
             $sender->company_name = $this->company_name;
             $sender->Street = $this->Street;
             $sender->phone_number = $this->phone_number;
-            $sender->items_id  = $this->selected_product;
+            // $sender->items_id  = $this->selected_product;
             $sender->quantity = $this->quantity;
             $sender->weight = $this->weight;
             // $sender->shiping_price = $this->shiping_price;
-            $sender->status = $this->payment;
+            // $sender->status = $this->payment;
+          
     
              $sender->save();
           
@@ -87,6 +88,7 @@ class Createshiping extends Component
           'weight'=>$this->weight,
           'shiping_price' => $this->shiping_price,
           'status' => $this->payment,
+       
           
       ]);
      
